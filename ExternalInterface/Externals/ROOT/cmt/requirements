@@ -1,0 +1,13 @@
+package ROOT
+
+macro ROOT_home "${ROOTSYS}"
+
+include_path none
+include_dirs "`root-config --incdir`"
+
+macro ROOT_cppflags "`root-config --cflags`"
+macro_append ROOT_cppflags " -Wno-long-long "
+macro ROOT_linkopts "`root-config --libs`"
+
+macro rootcint '"$(ROOT_home)/bin/rootcint"'
+make_fragment rootcint -header=rootcint_header -trailer=rootcint_trailer

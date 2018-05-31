@@ -1,0 +1,5 @@
+package EIRelease
+
+use Python  v* Externals 
+use Boost   v* Externals
+use ROOT    v* Externals

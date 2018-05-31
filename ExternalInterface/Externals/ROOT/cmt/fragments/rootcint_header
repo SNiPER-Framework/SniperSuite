@@ -1,0 +1,4 @@
+${CONSTITUENT}_output = ${src}
+
+${CONSTITUENT} :: ${OBJS}
+	@echo "------> ${CONSTITUENT} ok"

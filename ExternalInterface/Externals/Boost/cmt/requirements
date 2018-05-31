@@ -1,0 +1,6 @@
+package Boost
+
+use Python v* Externals
+
+macro_append Boost_linkopts " -lboost_python "
+include_path none

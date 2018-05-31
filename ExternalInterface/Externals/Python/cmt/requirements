@@ -1,0 +1,5 @@
+package Python
+
+macro Python_linkopts " `pkg-config --libs python` "
+macro Python_cppflags " `pkg-config --cflags python` "
+

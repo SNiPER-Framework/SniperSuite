@@ -1,0 +1,5 @@
+project ExternalInterface
+
+setup_strategy no_root
+setup_strategy no_config
+structure_strategy without_version_directory
