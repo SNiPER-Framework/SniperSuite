@@ -1,0 +1,6 @@
+[submodule "sniper"]
+	path = sniper
+	url = git@github.com:SNiPER-Framework/sniper.git
+[submodule "sniper.mt"]
+	path = sniper.mt
+	url = git@github.com:SNiPER-Framework/sniper.mt.git

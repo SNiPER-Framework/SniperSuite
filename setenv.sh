@@ -20,7 +20,7 @@ if [ -z "$ROOTSYS" ]; then
     fi
 fi
 
-AbsThisName=`readlink -f $0`
+AbsThisName=`readlink -f ${BASH_SOURCE[0]}`
 AbsPrjDir=`dirname "$AbsThisName"`
 if [ ! -d $AbsPrjDir/sniper ]; then
     echo "Please checkout the sniper project first"
